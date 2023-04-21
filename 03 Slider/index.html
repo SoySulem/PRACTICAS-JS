@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>SLIDER</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+</head>
+
+<body bgcolor="pink">
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+        <img src="../img/leon.jpg" alt="Logo" width="80" height="70" class="d-inline-block align-text-top">
+        03 SLIDER
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+                </div>
+            </div>
+    </div>
+</nav>
+<center>
+   <h1>SLIDER</h1>
+</center>
+<hr>
+
+<input type="range" onchange= "cambiar()" value ="0" min="0" max="100" id="v">
+<h1 id="valor"class="btn btn-outline-danger">0</h1>
+<script>
+const cambiar=()=>{
+document.querySelector("#valor").innerHTML =document.querySelector("#v").value;
+}
+</script>
+<script src="app.js"></script>
+<script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

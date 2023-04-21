@@ -1,0 +1,18 @@
+*{
+    margin: 0px;
+    padding: 0px;
+  }
+  body{
+    background: hotpink;
+  }
+  #n1{
+    background: pink;
+  }
+  #n2{
+    background: pink;
+  }
+  button{
+        height: 120px;
+        width: 100px;
+        background-color: plum
+      }
