@@ -30,27 +30,27 @@ const e4=()=>{
         showCancelButton: true,
         focusConfirm: false,
         confirmButtonText:
-          '<i class="fa fa-thumbs-up"></i> Great!',
-        confirmButtonAriaLabel: 'Thumbs up, great!',
+          'chaooooo',
+        confirmButtonAriaLabel: 'howilis',
         cancelButtonText:
           '<i class="fa fa-thumbs-down"></i>',
-        cancelButtonAriaLabel: 'Thumbs down'
+        cancelButtonAriaLabel: 'veteeee'
       })
     }
 
 const e5=()=>{
     Swal.fire({
-        title: 'Do you want to save the changes?',
+        title: '¿cómo estas?',
         showDenyButton: true,
         showCancelButton: true,
-        confirmButtonText: 'Save',
-        denyButtonText: `Don't save`,
+        confirmButtonText: 'yo ya me aburri',
+        denyButtonText: `tengo sueñoooo`,
       }).then((result) => {
         /* Read more about isConfirmed, isDenied below */
         if (result.isConfirmed) {
-          Swal.fire('Saved!', '', 'success')
+          Swal.fire('chaito', '', 'byeeee')
         } else if (result.isDenied) {
-          Swal.fire('Changes are not saved', '', 'info')
+          Swal.fire('si ajammm byeeee', '', 'bla bla bla')
         }
       })
 }
