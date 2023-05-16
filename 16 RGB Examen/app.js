@@ -5,7 +5,6 @@ let g2=document.querySelector("#g2")
 let b1=document.querySelector("#b1")
 let b2=document.querySelector("#b2")
 
-
 r1.oninput=()=>{cambiarFondo()}
 r2.oninput=()=>{cambiarFondo()}
 g1.oninput=()=>{cambiarFondo()}
@@ -29,4 +28,3 @@ const cambiarFondo=()=>{
     body.style.background=`linear-gradient(90deg, rgba(${vr1},${vg1},${vb1},1) 0%, rgba(${vr2},${vg2},${vb2},1) 100%)`
 
 }
-

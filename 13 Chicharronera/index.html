@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>RGB</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Chicharronera</title>
     <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link rel="stylesheet" href="estilo.css">
 </head>
@@ -13,7 +13,7 @@
         <div class="container-fluid">
             <a class="navbar-brand" href="#">
             <img src="../img/leon.jpg" alt="Logo" width="40" height="30" class="d-inline-block align-text-top">
-            RGB
+            CHICHARRONERA
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -25,29 +25,39 @@
                 </div>
         </div>
     </nav>
-
-    <h1>RGB</h1>
-    <table>
-        <tr>
-            <td>COLOR 1</td>
-            <td>COLOR 2</td>
-        </tr>
-        <tr>
-            <td>R<input type="range" id="r1" value="0" min="0" max="225"><span id="vr1">0</span></td>
-            <td>R<input type="range" id="r2" value="0" min="0" max="225"><span id="vr2">0</span></td>
-        </tr>
-        <tr>
-            <td>B<input type="range" id="g1" value="0" min="0" max="225"><span id="vg1">0</span></td>
-            <td>B<input type="range" id="g2" value="0" min="0" max="225"><span id="vg2">0</span></td>
-        </tr>
-        <tr>
-            <td>A<input type="range" id="b1" value="0" min="0" max="225"><span id="vb1">0</span></td>
-            <td>A<input type="range" id="b2" value="0" min="0" max="225"><span id="vb2">0</span></td>
-        </tr>
-        <tr>
-            
-        </tr>
-    </table>
+  
+<style>
+    
+       div{
+        width: 100px;
+        height: 100px;
+        display:block;
+        border: 2px solid burlywood;
+        margin:auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       }
+       
+    </style>
+<body>
+  <h1>La chicharronera</h1>
+  <img src="Formula.jpg"id="img" >
+  
+  <h1>ax<sup>2</sup>+bx+c</h1> 
+  a<input onchange="valor" type="range" min="-100" max="100" id ="a">
+<label id="va">0</label> <br> b<input type="range" min="-100" max=100 id="b">
+<label id="vb">0</label> <br> 
+c<input type="range" id="c"> <label id="vc">0</label>
+<div id="valores"> </div>
+<h1>Resultado</h1>
+<div id="res"></div>
+  
     <script src="app.js"></script>
+    
 </body>
+
 </html>
+{
+
+}

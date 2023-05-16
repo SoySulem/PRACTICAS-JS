@@ -1,0 +1,19 @@
+*{
+    margin: Opx;
+    padding: Opx;
+    }
+    body{
+      background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(214,103,214,1) 41%, rgba(76,0,255,1) 97%);
+    } 
+    div {
+      width: 180px;
+      height: 180px;
+      border: 3px black;
+      background: mediumpurple;
+      margin: auto;
+      align-items: center;
+      justify-items: center ;
+      display: flex;
+    } 
+    
