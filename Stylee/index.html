@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RGB</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body id="body" onload="cambiarFondo()">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+            <img src="../img/leon.jpg" alt="Logo" width="40" height="30" class="d-inline-block align-text-top">
+           STYLE
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                    <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+                    </div>
+                </div>
+        </div>
+    </nav>
+<style>
+    *{
+
+        transition: 2s ease all;
+        }
+        body{
+            text-align: center;
+        }
+        div{
+            width: 100px;
+            height: 100px;
+            display: block;
+            border: 2px solid royalblue;
+            margin: auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+</head>
+<br onload="cambiar()">
+    <h1>MI STYLE</h1><hr>
+    color fondo:<input type="color" id="color" onchange="cambiar()"value="#FF0000"><br>
+    color texto:<input type="color" id="colort" onchange="cambiar()"value="#FFFFFF"><br>
+    figura:<select name="figura" id="figura" onchange="cambiar()">
+        <option value="1">cuadro</option>
+        <option value="2">circulo</option>
+    </select><br>
+    TEXTO:<input type="text" id="texto" onkeyup="cambiar()"value="HOLIWILIS"><br>
+    ANCHO:<input type="range" id="ancho" onchange="cambiar()"min="1" max="500"value="100"><span id="vancho">100</span><br>
+    ALTO:<input type="range" id="alto" onchange="cambiar()"min="1" max="500"value="100"><span id="valto">100</span><br>
+    <br></br>
+    <div id="item">HOLIIIIS</div>
+    <script src="app.js"></script>
+</body>
+</html>
+
+
+</body>

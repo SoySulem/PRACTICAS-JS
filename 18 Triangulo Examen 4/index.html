@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body onunload="generar">
+ <center>
+   <h1>TRIANGULO</h1>
+ </center>
+ <hr>
+ <br>
+  <img src="triangulito.png" alt="Imagen de ejemplo" width="200">
+  <br>
+ <form>
+   <label>BASE:</label>
+ <input type="range" onchange= "generar()" value ="0" min="0" max="100" id="b">
+ <label id="vb">0</label>
+ <br>
+    <label>ALTURA:</label>
+ <input type="range" onchange= "generar()" value ="0" min="0" max="100" id="a">
+ <label id="va">0</label>
+ 
+ <div id="res"></div>
+ <button onclick="borrar ()" id="borrar">BORRAR</button>
+   </form>
+   <script src="app.js"></script>
+</body>
+</html>
