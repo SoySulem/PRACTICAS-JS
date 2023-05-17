@@ -8,12 +8,13 @@ const cambiar = () => {
     let alto = document.querySelector("#alto").value;
     document.querySelector("#vancho").innerHTML = ancho
     document.querySelector("#valto").innerHTML = alto
+    document.querySelector("#valto").innerHTML = alto
     div.style.width = ancho + "px"
     div.style.height = alto + "px"
     div.innerHTML = texto
     let br = (figura == "1") ? "0%" : "100%"
     div.style.borderRadius = br
-  
     div.style.background = colorfondo;
     div.style.color = colortexto
-  }
+
+    }
